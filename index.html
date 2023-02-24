@@ -28,7 +28,7 @@
               <a class="nav-link" href="#aptitudes">Aptitudes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -45,7 +45,7 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead">Tecnico informatico, especializado en sistemas, redes y ciberseguridad</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="#contact" class="btn btn-primary btn-lg">Contacto</a>
+        <a href="#contacto" class="btn btn-primary btn-lg">Contacto</a>
       </div>
     </div>
   </div>
@@ -115,22 +115,28 @@
     </div>
   </div>
 </section>
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-  
-      <h3>Proyecto 1</h3>
-      <div align="center"><img src="https://www.fdd.cl/wp-content/uploads/2017/09/350x150.png"></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus dignissim justo, auctor mollis nisl aliquet ut. Maecenas sed vulputate lacus. In hac habitasse platea dictumst. Aliquam ac scelerisque eros.</p> 
-    
-      <h3>Proyecto 2</h3>
-        <div align="center"><img src="https://www.fdd.cl/wp-content/uploads/2017/09/350x150.png"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus dignissim justo, auctor mollis nisl aliquet ut. Maecenas sed vulputate lacus. In hac habitasse platea dictumst. Aliquam ac scelerisque eros.</p>
-    
-    
-      <h3>Proyecto 3</h3>
-      <div align="center"><img src="https://www.fdd.cl/wp-content/uploads/2017/09/350x150.png"></div>
-        <p>Mauris auctor est eget felis consectetur, ut tempor arcu laoreet. Nunc finibus erat ac lorem varius, vel tincidunt magna aliquam. Sed eget erat eget odio semper blandit. Nunc interdum sapien nec odio aliquet, a maximus nisl efficitur.</p>
-  </section>
+  <!-- Formulario de contacto -->
+<section id="contacto">
+  <div style="margin-top:20px;">
+  <div class="container">
+    <h2>Contacto</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre" pattern="[^0-9]" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="Escribe tu correo electrónico" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="message" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+</section>
   <section id="contacto">
 		<h2>Contacto</h2>
   		<form action="Rellene los Datos">
